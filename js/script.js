@@ -31,7 +31,10 @@ $(document).ready(() => {
     }
   });
   $("body").mouseover(() => {
+ HEAD
     console.log("mouse in");
+
+ ae36ec55726a2c4d3141223011a0bc664e2ebe22
     const theme_elem = $("#theme");
     const current_theme = theme_elem.hasClass("fa-sun-o");
 
@@ -42,7 +45,10 @@ $(document).ready(() => {
     }
   });
   $("body").mouseleave(() => {
+ HEAD
     console.log("mouse out");
+
+ ae36ec55726a2c4d3141223011a0bc664e2ebe22
     const theme_elem = $("#theme");
     const current_theme = theme_elem.hasClass("fa-sun-o");
 
@@ -52,4 +58,15 @@ $(document).ready(() => {
       $("body").css("background-position", "top left");
     }
   });
+ HEAD
+
+  // $('#demo').pagination({
+  //   dataSource: [1, 2, 3, 4, 5, 6, 7, ... , 195],
+  //   callback: function(data, pagination) {
+  //       // template method of yourself
+  //       var html = template(data);
+  //       dataContainer.html(html);
+  //   }
+  // });
+ ae36ec55726a2c4d3141223011a0bc664e2ebe22
 });
