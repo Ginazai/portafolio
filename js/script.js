@@ -1,4 +1,34 @@
 $(document).ready(() => {
+  const adjustContent = () => {
+    if(window.innerWidth <= 991){
+      console.log('resize less than 991');
+      $("body").removeClass("vh-100");
+      $("#social-links").removeClass("position-absolute top-0 end-0");
+      $(".card").removeClass("px-5 py-3");
+      $("#projects-container").removeClass("p-5");
+
+      $("body").addClass("h-100");
+      $("#social-links").addClass('my-3');
+      $(".card").addClass("px-3");
+      $("#projects-container").addClass("my-3 p-0");
+    } else {
+      console.log('resize more than 991');
+      $("body").removeClass("h-100");
+      $("#social-links").removeClass('my-3');
+      $(".card").removeClass("px-3");
+      $("#projects-container").removeClass("my-3 p-0");
+
+      $("body").addClass("vh-100");
+      $("#social-links").addClass("position-absolute top-0 end-0");
+      $(".card").addClass("px-5 py-3");
+      $("#projects-container").addClass("p-5");
+
+    }
+  }
+  adjustContent();
+  $(window).on("resize change", () => {
+    adjustContent();
+  });
   const light = document.getElementById('light');
   const container = document.getElementById('body');
 
