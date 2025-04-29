@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <link rel="icon" type="image/png" sizes="70x70" href="images/favicon70.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=3.0, user-scalable=yes">
-    <title>Portfolio</title>
+    <script src="js/lang.js"></script>
+    <title class="lang">{{title}}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Sansation:wght@300&display=swap" rel="stylesheet">
@@ -35,9 +36,9 @@
 	  	</div>
 
 	  	<div id="hello-container" class="col-lg-6 col-md-12">
-	  		<h1 class="card-title">Hola!</h1>
-		    <h6 class="card-subtitle mb-2 text-body-secondary">Mi nombre es Rafael Caballero</h6>
-		    <p id="hello-text" class="card-text" style="text-align: justify;">Estoy profundamente motivado por el aprendizaje continuo y la búsqueda de conocimiento. Cuando me sumerjo en un tema, me comprometo a dominarlo por completo. Mi enfoque se centra en la implementación eficiente, efectiva y proactiva, asegurando que el nuevo conocimiento se integre perfectamente con mi experiencia existente. Además, valoro el trabajo en equipo como un pilar fundamental para lograr metas comunes. Colaboro de manera efectiva, fomentando un entorno de cooperación y aprendizaje mutuo que potencia el rendimiento colectivo e individual. Esto me permite optimizar el desempeño del sistema y ofrecer resultados con el máximo impacto.</p>
+	  		<h1 class="card-title lang">{{greeting}}</h1>
+		    <h6 class="lang card-subtitle mb-2 text-body-secondary">{{name}}</h6>
+		    <p id="hello-text" class="card-text lang" style="text-align: justify;">{{desc}}}</p>
 	  	</div>
 	  	<div id="projects-container" class="col-lg-6 col-md-12 p-5">
 			<div id="light"></div>
