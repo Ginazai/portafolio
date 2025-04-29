@@ -4,7 +4,6 @@ body {
 	background-size: 200% 200%;
     transition: background-position 0.5s ease-in-out;
 }
-HEAD
 a {
 	text-decoration: none;
 	color: inherit;
@@ -29,7 +28,6 @@ a {
 		transform: translateX(0);
 	}
 }
-ae36ec55726a2c4d3141223011a0bc664e2ebe22
 #hello-container {
 	border: 3px solid;
 	border-radius: 5em !important;
@@ -39,11 +37,9 @@ ae36ec55726a2c4d3141223011a0bc664e2ebe22
 	border-bottom: 0px !important;
 	border-top: 0px !important;
 }
-HEAD
 #hello-container > * {
 	animation: 1s ease-in-out 0s 1 appear-left-right;
 }
-ae36ec55726a2c4d3141223011a0bc664e2ebe22
 #projects {
 	text-decoration: none;
 	padding: 0px;
@@ -60,10 +56,8 @@ ae36ec55726a2c4d3141223011a0bc664e2ebe22
 	padding-bottom: 1em;
 
 	transition: text-decoration 1s ease-in-out;
-HEAD
 
 	animation: 1s ease-in-out 0s 1 appear-left-right;
-ae36ec55726a2c4d3141223011a0bc664e2ebe22
 }
 card {
 	z-index: -1;
