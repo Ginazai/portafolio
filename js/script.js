@@ -50,12 +50,27 @@ $(document).ready(() => {
       $("body").css("background-position", "top left");
     }
   });
-  // $('#demo').pagination({
-  //   dataSource: [1, 2, 3, 4, 5, 6, 7, ... , 195],
-  //   callback: function(data, pagination) {
-  //       // template method of yourself
-  //       var html = template(data);
-  //       dataContainer.html(html);
-  //   }
-  // });
+  const template = (data) => {
+    var output = "";
+    data.map((elem) => {
+      var link = elem["link"];
+      var name = elem["name"];
+      output += `<li><a href='${link}' target='_blank'>${name}</a></li>`;
+    });
+    return output;
+  }
+  $('#pagination-pages').pagination({
+    dataSource: data_links,
+    pageSize: 5,
+    position: 'bottom',
+    showPrevious: false,
+    showNext: false,
+    ulClassName: 'btn-group border-0',
+    pageClassName: 'btn',
+    callback: function(data, pagination) {
+        // template method of yourself
+        var html = template(data);
+        $("#projects").html(html);
+    }
+  });
 });
