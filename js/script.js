@@ -36,6 +36,7 @@ $(document).ready(() => {
       $("#social-links").removeClass("position-absolute top-0 end-0");
       $(".card").removeClass("px-5 py-3");
       $("#projects-container").removeClass("p-5");
+      $("#pagination-pages").removeClass("text-center");
 
       $("body").addClass("h-100");
       $("#social-links").addClass('my-3');
@@ -51,7 +52,7 @@ $(document).ready(() => {
       $("#social-links").addClass("position-absolute top-0 end-0");
       $(".card").addClass("px-5 py-3");
       $("#projects-container").addClass("p-5");
-
+      $("#pagination-pages").addClass("text-center");
     }
   }
   adjustContent();
@@ -122,10 +123,12 @@ $(document).ready(() => {
     dataSource: data_links,
     pageSize: 5,
     position: 'bottom',
-    showPrevious: false,
-    showNext: false,
-    ulClassName: 'btn-group border-0',
+    // showPrevious: false,
+    // showNext: false,
+    ulClassName: 'btn-group rounded-1',
     pageClassName: 'btn',
+    prevClassName: 'btn rounded-start-1',
+    nextClassName: 'btn rounded-end-1',
     callback: function(data, pagination) {
         // template method of yourself
         var html = template(data);
