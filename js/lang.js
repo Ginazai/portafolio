@@ -2,16 +2,16 @@ lang =
 [
 	{
 		"title" : "Portafolio",
-		"greeting" : "Hola!",
-		"name" : "Mi nombre es Rafael Caballero",
-		"desc" : "Estoy profundamente motivado por el aprendizaje continuo y la búsqueda de conocimiento. Cuando me sumerjo en un tema, me comprometo a dominarlo por completo. Mi enfoque se centra en la implementación eficiente, efectiva y proactiva, asegurando que el nuevo conocimiento se integre perfectamente con mi experiencia existente. Además, valoro el trabajo en equipo como un pilar fundamental para lograr metas comunes. Colaboro de manera efectiva, fomentando un entorno de cooperación y aprendizaje mutuo que potencia el rendimiento colectivo e individual. Esto me permite optimizar el desempeño del sistema y ofrecer resultados con el máximo impacto.",
-		"pro" : ["a","b"]
+		"greeting" : "Bienvenido a mi portafolio!",
+		"name" : "Mi nombre es Rafael Caballero, ingeniero de sistemas informaticos en formacion",
+		"desc" : "Aquí comparto una parte de mi proceso: soluciones que buscan ser funcionales, claras y sostenibles, con cada línea de código pensada para integrarse con precisión a un sistema. No se trata solo de saber hacer, tambien de cómo abordarlo: con profundidad, intención y una constante búsqueda de mejorar. Cada proyecto refleja mi forma de aprender, razonar y construir.",
+		"links" : data_links_es
 	},
 	{
 		"title" : "Portfolio",
-		"greeting" : "Hello!",
-		"name" : "My name is Rafael Caballero",
-		"desc" : "lorem ipsum.",
-		"pro" : ["a","b"]
+		"greeting" : "Welcome to my portfolio!",
+		"name" : "My name is Rafael Caballero, computer systems engineer in training",
+		"desc" : "Here I share a part of my process: solutions that strive to be functional, clear, and sustainable, with every line of code designed to integrate precisely into a system. It's not just about know-how, but also how to approach it: with depth, intention, and a constant pursuit of improvement. Each project reflects my way of learning, reasoning, and building.",
+		"links" : data_links_en
 	}
 ];

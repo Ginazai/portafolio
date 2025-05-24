@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="es" dir="ltr" data-bs-theme="dark">
+<html dir="ltr" data-bs-theme="dark">
   <head>
     <meta charset="utf-8">
     <link rel="icon" type="image/png" sizes="70x70" href="images/favicon70.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=3.0, user-scalable=yes">
+    <script src="js/links.js" type="text/javascript"></script>
     <script src="js/lang.js"></script>
     <title class="lang">{{title}}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Sansation:wght@300&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="js/links.js" type="text/javascript"></script>
     <script 
     src="https://code.jquery.com/jquery-3.7.1.min.js" 
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
@@ -34,9 +34,8 @@
 	  		<i class="fa fa-linkedin-square px-1" style="font-size:40px;"></i>
 	  		<i class="fa fa-github px-1" style="font-size:40px;"></i>
 	  		<i id="theme" class="fa fa-moon-o float-end" style="font-size:40px;"></i>
-	  		<!-- fa fa-moon-o, fa-sun-o -->
+	  		
 	  	</div>
-
 	  	<div id="hello-container" class="col-lg-6 col-md-12">
 	  		<h1 class="card-title lang">{{greeting}}</h1>
 		    <h6 class="lang card-subtitle mb-2 text-body-secondary">{{name}}</h6>
@@ -45,23 +44,13 @@
 	  	<div id="projects-container" class="col-lg-6 col-md-12 p-5">
 			<div id="light"></div>
 	    	<h2 class="card-title">Proyectos</h2>
-	    	<ul class="px-3" id="projects">
-<!-- 	    		<li><a href="https://github.com/Ginazai/Spring-JPA-Test-API" target="_blank">REST API (Java/SpringBoot)</a></li>
-	    		<li><a href="https://github.com/Ginazai/ETAC-NC" target="_blank">ETAC-NC</a></li>
-	    		<li><a href="https://github.com/Ginazai/Gestor-de-Pildoras" target="_blank">Aplicacion de gestion de pildoras</a></li>
-	    		<li><a href="https://github.com/Ginazai/ShieldBit" target="_blank">ShieldBit</a></li>
-	    		<li><a href="https://github.com/Ginazai/interests_calculator" target="_blank">Interests Calculator</a></li>
-	    		<li class="visually-hidden"><a href="Simple-Content-Management-WebApp" target="_blank">Simple Content Management System</a></li>
-	    		<li class="visually-hidden"><a href="https://github.com/Ginazai/Parsing-RSS" target="_blank">Parsing RSS with Python</a></li>
-	    		<li class="visually-hidden"><a href="https://github.com/Ginazai/Aplicacion-Web-Para-Registros-Curriculares" target="_blank">Aplicacion web para registro curriculares</a></li>
-	    		<li class="visually-hidden"><a href="https://github.com/Ginazai/Simple-E-commerce-with-roles" target="_blank">Simple E-commerce with roles</a></li>
-	    		<li class="visually-hidden"><a href="https://github.com/Ginazai/programacion_v" target="_blank">Cowboy Cats (indie game)</a></li> -->
-	    		
+	    	<ul class="px-3" id="projects">	    		
 	    	</ul>
     		<div id="pagination-pages"></div>
 	  	</div>
-	  	<div class="position-absolute bottom-0 end-0 px-3">
-	  		<p class="float-end">&copy; 2025 Rafael Caballero</p>
+	  	<div id="bottom-items">
+	  		<i id="lang_icon" class="fa fa-language float-start" style="font-size:38px;"></i>	
+	  		<p class="align-text-bottom float-end">&copy; 2025 Rafael Caballero</p>
 	  	</div>
 	  </div>
 	</div>

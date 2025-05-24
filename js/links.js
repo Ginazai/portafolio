@@ -1,54 +1,75 @@
-// data_links = [
-// "<li><a href='https://github.com/Ginazai/Spring-JPA-Test-API' target='_blank'>REST API (Java/SpringBoot)</a></li>",
-// "<li><a href='https://github.com/Ginazai/ETAC-NC' target='_blank'>ETAC-NC</a></li>",
-// "<li><a href='https://github.com/Ginazai/Gestor-de-Pildoras' target='_blank'>Aplicacion de gestion de pildoras</a></li>",
-// "<li><a href='https://github.com/Ginazai/ShieldBit' target='_blank'>ShieldBit</a></li>",
-// "<li><a href='https://github.com/Ginazai/interests_calculator' target='_blank'>Interests Calculator</a></li>",
-// "<li class='visually-hidden'><a href='Simple-Content-Management-WebApp' target='_blank'>Simple Content Management System</a></li>",
-// "<li class='visually-hidden'><a href='https://github.com/Ginazai/Parsing-RSS' target='_blank'>Parsing RSS with Python</a></li>",
-// "<li class='visually-hidden'><a href='https://github.com/Ginazai/Aplicacion-Web-Para-Registros-Curriculares' target='_blank'>Aplicacion web para registro curriculares</a></li>",
-// "<li class='visually-hidden'><a href='https://github.com/Ginazai/Simple-E-commerce-with-roles' target='_blank'>Simple E-commerce with roles</a></li>",
-// "<li class='visually-hidden'><a href='https://github.com/Ginazai/programacion_v' target='_blank'>Cowboy Cats (indie game)</a></li>"
-// ]
-data_links = [
+/*
+Lista de proyectos:
+-REST API con Spring - check
+-REST API sin Spring - check
+-Interests calc. - check
+-Resume Registry - check
+-Simple content management system - queue
+-RSS parser - pend
+-Photo color filter - check
+-Shieldbit - pend
+-ETAC-NC - pend
+-Gestor de pildoras - pend
+-E-commerce - check
+-Cowboy Cats - pend
+*/
+data_links_es = [
 	{
-		"name" : "REST API (Java/SpringBoot)",
+		"name" : "SpringBoot REST API (Java/Maven)",
 		"link" : "https://github.com/Ginazai/Spring-JPA-Test-API"
 	},
 	{
-		"name" : "ETAC-NC",
-		"link" : "https://github.com/Ginazai/ETAC-NC"
+		"name" : "REST API (Java/Maven/Glassfish)",
+		"link" : "https://github.com/Ginazai/No-Spring-API"
 	},
 	{
-		"name" : "ShieldBit",
-		"link" : "https://github.com/Ginazai/ShieldBit'"
-	},
-	{
-		"name" : "Interests Calculator",
+		"name" : "Calculadora de intereses",
 		"link" : "https://github.com/Ginazai/interests_calculator"
 	},
 	{
-		"name" : "Aplicacion de gestion de pildoras",
-		"link" : "https://github.com/Ginazai/Gestor-de-Pildoras"
-	},
-	{
-		"name" : "Simple Content Management System",
-		"link" : "Simple-Content-Management-WebApp"
-	},
-	{
-		"name" : "Parsing RSS with Python",
-		"link" : "https://github.com/Ginazai/Parsing-RSS"
+		"name" : "Gestor de Contenido Web (SpringBoot)",
+		"link" : "https://github.com/Ginazai/Content-Management-System"
 	},
 	{
 		"name" : "Aplicacion web para registro curriculares",
 		"link" : "https://github.com/Ginazai/Aplicacion-Web-Para-Registros-Curriculares"
 	},
 	{
-		"name" : "Simple E-commerce with roles",
-		"link" : "https://github.com/Ginazai/Simple-E-commerce-with-roles"
+		"name" : "Aplicar filtro de color a imagenes usando JavaScript",
+		"link" : "https://github.com/Ginazai/Image-color-filter"
 	},
 	{
-		"name" : "Cowboy Cats (indie game)",
-		"link" : "https://github.com/Ginazai/programacion_v"
+		"name" : "E-commerce con roles (PHP)",
+		"link" : "https://github.com/Ginazai/Simple-E-commerce-with-roles"
+	}
+]
+data_links_en = [
+	{
+		"name" : "SpringBoot REST API (Java/Maven)",
+		"link" : "https://github.com/Ginazai/Spring-JPA-Test-API"
 	},
+	{
+		"name" : "REST API (Java/Maven/Glassfish)",
+		"link" : "https://github.com/Ginazai/No-Spring-API"
+	},
+	{
+		"name" : "Interests Calculator",
+		"link" : "https://github.com/Ginazai/interests_calculator"
+	},
+	{
+		"name" : "Web Content Management System",
+		"link" : "https://github.com/Ginazai/Content-Management-System"
+	},
+	{
+		"name" : "Resume Registry",
+		"link" : "https://github.com/Ginazai/Aplicacion-Web-Para-Registros-Curriculares"
+	},
+	{
+		"name" : "JavaScript Image Color Filter",
+		"link" : "https://github.com/Ginazai/Image-color-filter"
+	},
+	{
+		"name" : "E-commerce with roles (PHP)",
+		"link" : "https://github.com/Ginazai/Simple-E-commerce-with-roles"
+	}
 ]

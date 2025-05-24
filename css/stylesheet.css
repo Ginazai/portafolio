@@ -1,8 +1,9 @@
 body {
 	background-repeat: no-repeat;
-	background: linear-gradient(rgba(0, 157, 255, 1)  0%, rgba(210, 255, 31, 1)100%);
+	background: linear-gradient(to top, rgba(0, 157, 255, 1)  0%, rgba(210, 255, 31, 1)100%);
 	background-size: 200% 200%;
-    transition: background-position 0.5s ease-in-out;
+	
+  transition: background-position 0.5s ease-in-out;
 }
 a {
 	text-decoration: none;
@@ -90,7 +91,7 @@ li:hover::after {
 	  width: 150px;
 	  height: 150px;
 	  background: white;
-	  opacity: 0.5;
+	  opacity: 0.25;
 	  border-radius: 50%;
 	  filter: blur(50px);
 	  pointer-events: none; /* para que no bloquee el mouse */
