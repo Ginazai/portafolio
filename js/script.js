@@ -15,7 +15,7 @@ $(document).ready(() => {
   //Lenguage determiner
   const urlParams = new URLSearchParams(window.location.search);
   var page_lang = urlParams.get("lang");
-  page_lang = page_lang == "en" || page_lang == null ? "es" : "en";
+  page_lang = page_lang == null ? "es" : page_lang;
   page_lang = page_lang == "es" ? 0 : 1; //For targeting the lang index in the lang array (see lang.js file)
   const setLang = () => {
     var lang_elems = document.querySelectorAll(".lang");
@@ -99,18 +99,11 @@ $(document).ready(() => {
     }
   });
   $("body").on('mouseover change', () => {
-    if(light_theme){
-      $("body").css("background-position", "top right");
-    } else {
-      $("body").css("background-position", "bottom left");
-    }
+    
+    $("body").css("background-position", "bottom right");
   });
   $("body").on('mouseleave change', () => {
-    if(light_theme){
-      $("body").css("background-position", "top left");
-    } else {
-      $("body").css("background-position", "bottom right");
-    }
+    $("body").css("background-position", "top right");
   });
   const template = (data) => {
     var output = "";
@@ -143,7 +136,8 @@ $(document).ready(() => {
   }
   setPagination();
   $(".fa-language").click(()=>{
-    page_lang = page_lang == 0 ? "es" : "en";
+    console.log(`page lang: ${page_lang}`);
+    page_lang = page_lang == 0 ? "en" : "es";
     // Set a query parameter before reloading
     window.location.href = window.location.pathname + `?lang=${page_lang}`;
   });
