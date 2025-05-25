@@ -91,19 +91,30 @@ $(document).ready(() => {
       theme_elem.removeClass("fa-sun-o");
       theme_elem.addClass("fa-moon-o");
       $("#light").css("background", "white");
+      light_theme = false;
     } else {
       $("html").attr("data-bs-theme", "light");
       theme_elem.removeClass("fa-moon-o");
       theme_elem.addClass("fa-sun-o");
       $("#light").css("background", "#D2FF1F");
+      light_theme = true;
     }
   });
-  $("body").on('mouseover change', () => {
-    
-    $("body").css("background-position", "bottom right");
+  $("body").on('mouseover', () => {
+    console.log("mouseover");
+    if(light_theme){
+      $("body").css("background-position", "top right");
+    } else {
+      $("body").css("background-position", "bottom right");
+    }
   });
-  $("body").on('mouseleave change', () => {
-    $("body").css("background-position", "top right");
+  $("body").on('mouseleave', () => {
+    console.log("mouseleave");
+    if(light_theme){
+      $("body").css("background-position", "bottom left");
+    } else {
+      $("body").css("background-position", "top left");
+    }
   });
   const template = (data) => {
     var output = "";
