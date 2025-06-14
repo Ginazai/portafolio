@@ -15,23 +15,28 @@ Lista de proyectos:
 */
 data_links_es = [
 	{
-		"name" : "SpringBoot REST API (Java/Maven)",
+		"name" : "SpringBoot REST API | Java, Maven",
 		"link" : "https://github.com/Ginazai/Spring-JPA-Test-API"
 	},
 	{
-		"name" : "REST API (Java/Maven/Glassfish)",
+		"name": "SpringBoot REST API Frontend | React.JS",
+		"link": "https://github.com/Ginazai/API-Frontend-1"
+
+	},
+	{
+		"name" : "REST API | Java, Maven, Glassfish",
 		"link" : "https://github.com/Ginazai/No-Spring-API"
 	},
 	{
-		"name" : "Calculadora de intereses",
+		"name" : "Calculadora de intereses | php",
 		"link" : "https://github.com/Ginazai/interests_calculator"
 	},
 	{
-		"name" : "Gestor de Contenido Web (SpringBoot)",
+		"name" : "Gestor de Contenido Web | SpringBoot",
 		"link" : "https://github.com/Ginazai/Content-Management-System"
 	},
 	{
-		"name" : "Aplicacion web para registro curriculares",
+		"name" : "Aplicacion web para registro curriculares | php",
 		"link" : "https://github.com/Ginazai/Aplicacion-Web-Para-Registros-Curriculares"
 	},
 	{
@@ -39,29 +44,34 @@ data_links_es = [
 		"link" : "https://github.com/Ginazai/Image-color-filter"
 	},
 	{
-		"name" : "E-commerce con roles (PHP)",
+		"name" : "E-commerce con roles | php",
 		"link" : "https://github.com/Ginazai/Simple-E-commerce-with-roles"
 	}
 ]
 data_links_en = [
 	{
-		"name" : "SpringBoot REST API (Java/Maven)",
+		"name" : "SpringBoot REST API | Java, Maven",
 		"link" : "https://github.com/Ginazai/Spring-JPA-Test-API"
 	},
 	{
-		"name" : "REST API (Java/Maven/Glassfish)",
+		"name": "REST API Frontend | React.JS",
+		"link": "https://github.com/Ginazai/API-Frontend-1"
+
+	},
+	{
+		"name" : "REST API | Java, Maven, Glassfish",
 		"link" : "https://github.com/Ginazai/No-Spring-API"
 	},
 	{
-		"name" : "Interests Calculator",
+		"name" : "Interests Calculator | php",
 		"link" : "https://github.com/Ginazai/interests_calculator"
 	},
 	{
-		"name" : "Web Content Management System",
+		"name" : "Web Content Management System | SpringBoot",
 		"link" : "https://github.com/Ginazai/Content-Management-System"
 	},
 	{
-		"name" : "Resume Registry",
+		"name" : "Resume Registry | php",
 		"link" : "https://github.com/Ginazai/Aplicacion-Web-Para-Registros-Curriculares"
 	},
 	{
@@ -69,7 +79,7 @@ data_links_en = [
 		"link" : "https://github.com/Ginazai/Image-color-filter"
 	},
 	{
-		"name" : "E-commerce with roles (PHP)",
+		"name" : "E-commerce with roles | php",
 		"link" : "https://github.com/Ginazai/Simple-E-commerce-with-roles"
 	}
 ]
